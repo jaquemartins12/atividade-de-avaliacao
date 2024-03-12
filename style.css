@@ -14,6 +14,7 @@ header h1 {
     color: #128a84;
     font-size: 80px;
 }
+
 header i {
     font-size: 100px;
     color: #128a84;
@@ -24,9 +25,13 @@ body {
     background-color: #bb5c37;
     margin: 0%;
 }
+
 .secao1 {
     margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
 }
+
 .div1 {
     display: flex;
     padding: 90px;
@@ -37,7 +42,7 @@ body {
 
 .div2 {
     display: flex;
-    padding: 90px;
+    padding: 100px;
     align-items: center;
     margin: 0px auto;
     justify-content: space-evenly;
@@ -56,7 +61,7 @@ footer {
     background-color: #4b0055;
     padding: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -72,10 +77,32 @@ footer {
     text-decoration: none;
     color: white;
     display: flex;
+    font-size: 20px;
 }
+
+
+.lista li {
+    margin-right: 15px;
+}
+
+
+
+
 .rodape {
     display: flex;
     align-items: center;
-    font-size: 50px;
-   background-color: white;
+}
+
+.rodape i {
+    margin-left: 10px;
+    font-size: 40px;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+}
+
+.lista :hover {
+ color: #128a84;
+ transition: 0.5s;
+font-size: 25px;
 }
