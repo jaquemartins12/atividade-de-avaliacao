@@ -85,9 +85,6 @@ footer {
     margin-right: 15px;
 }
 
-
-
-
 .rodape {
     display: flex;
     align-items: center;
@@ -95,7 +92,7 @@ footer {
 
 .rodape i {
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 30px;
     padding: 3px;
     border-radius: 3px;
     color: white;
