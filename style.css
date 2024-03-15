@@ -40,6 +40,19 @@ body {
     justify-content: space-evenly;
 }
 
+.div1 img {
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+    margin-right: 10px;
+}
+
+.div2 img {
+    border-radius: 10px;height: 200px;
+    width: 350px;
+    margin-right: 10px;
+}
+
 .div2 {
     display: flex;
     padding: 100px;
@@ -69,7 +82,7 @@ footer {
     list-style: none;
     display: flex;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .lista a {
@@ -99,7 +112,10 @@ footer {
 }
 
 .lista :hover {
- color: #128a84;
- transition: 0.5s;
-font-size: 25px;
+    color: #128a84;
+    transition: 0.5s;
+    font-size: 20px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 10px;
 }
